@@ -53,5 +53,9 @@ public:
         delete temp;
     }
 
-    
+    //peek/pop operation.
+    void peek()
+    {
+
+    }
 }
