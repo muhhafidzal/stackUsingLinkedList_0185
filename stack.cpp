@@ -111,6 +111,13 @@ int main ()
         case 4:
             cout << "Existing program." << endl;
             break;
+        default:
+            cout << "Invalid choice. Try again." << endl;
+            break;
         }
+
+        cout << endl;
     }
+
+    return 0;
 }
