@@ -102,13 +102,15 @@ int main ()
             stack.push(value); // Push the entered value onto the stack
             break;
         case 2:
-        stack.pop(); // Pop the top element from the stack
-        break;
+            stack.pop(); // Pop the top element from the stack
+            break;
         case 3:
-        stack.peek(); // Get the value of the top element
-        break;
-
+            stack.peek(); // Get the value of the top element
+            break;
         
+        case 4:
+            cout << "Existing program." << endl;
+            break;
         }
     }
 }
