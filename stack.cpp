@@ -56,7 +56,7 @@ public:
     //peek/pop operation.
     void peek()
     {
-         if (isEmpty())
+        if (isEmpty())
         {
             cout << " List is Empty." << endl;
         }
@@ -70,5 +70,10 @@ public:
             }
             cout << endl;
         } // return the value of the top node
+    }
+
+    bool isEmpty()
+    {
+
     }
 }
