@@ -48,5 +48,10 @@ public:
             return;
         }
 
+        cout << "Popped Value: " << temp->data << endl;
+        top = temp->next; // Update the top pointer to the next node 
+        delete temp;
     }
+
+    
 }
